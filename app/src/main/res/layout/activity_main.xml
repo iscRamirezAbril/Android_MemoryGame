@@ -4,35 +4,170 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/fondo2">
 
     <ImageButton
-        android:id="@+id/imageButton1"
-        android:layout_width="124dp"
-        android:layout_height="145dp"
-        android:layout_margin="20dp"
-        android:background="#E6E6E6"
-        android:scaleType="centerCrop"
+        android:id="@+id/imageButton11"
+        android:layout_width="52dp"
+        android:layout_height="53dp"
+        android:background="@drawable/borderbutton2"
+        android:src="@drawable/baseline_close_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintHorizontal_bias="0.976"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.097"
-        app:srcCompat="@drawable/huevito2" />
+        app:layout_constraintVertical_bias="0.043" />
 
     <ImageButton
         android:id="@+id/imageButton2"
-        android:layout_width="125dp"
-        android:layout_height="136dp"
-        android:background="#E6E6E6"
-        android:scaleType="centerCrop"
+        android:layout_width="98dp"
+        android:layout_height="145dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/borderbutton1"
+        android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintHorizontal_bias="0.102"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.829"
-        app:srcCompat="@drawable/huevito2" />
+        app:layout_constraintVertical_bias="0.939"
+        app:srcCompat="@drawable/huevito" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="98dp"
+        android:layout_height="145dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/borderbutton1"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.865"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.939"
+        app:srcCompat="@drawable/huevito" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="98dp"
+        android:layout_height="145dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/borderbutton1"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.676"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.939"
+        app:srcCompat="@drawable/huevito" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="98dp"
+        android:layout_height="145dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/borderbutton1"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.939"
+        app:srcCompat="@drawable/huevito" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="98dp"
+        android:layout_height="145dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/borderbutton1"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.295"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.939"
+        app:srcCompat="@drawable/huevito" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="98dp"
+        android:layout_height="145dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/borderbutton1"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.674"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.127"
+        app:srcCompat="@drawable/huevito" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="98dp"
+        android:layout_height="145dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/borderbutton1"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.127"
+        app:srcCompat="@drawable/huevito" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="98dp"
+        android:layout_height="145dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/borderbutton1"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.293"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.127"
+        app:srcCompat="@drawable/huevito" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="98dp"
+        android:layout_height="145dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/borderbutton1"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.127"
+        app:srcCompat="@drawable/huevito" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="98dp"
+        android:layout_height="145dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/borderbutton1"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.865"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.127"
+        app:srcCompat="@drawable/huevito" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
