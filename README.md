@@ -45,7 +45,7 @@ En el caso de que las cartas coincidan, éstas desaparecerán, esto para que el 
 - [x] Agregar imágenes al readme.
 - [x] Agregar descripciones a las imágenes.
 
-### ----- Sobre el autor. -----
+### |-----| Sobre el autor. |-----|
 #### **Nombre.**
 _Ramirez Flores Abril._
 #### **Perfil de Github.** :octocat:
