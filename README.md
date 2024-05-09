@@ -1,5 +1,9 @@
 # Juego de memoria (cartas) 🎮
 
+<p align="center">
+  <img src="https://github.com/iscRamirezAbril/Android_MemoryGame/blob/master/images/img_petDrawing1.png" width = "250"/>
+</p>
+
 ### **|-----| Descripción |-----|**
 Proyecto de práctica para comprender la lógica del juego de memoria (cartas)
 
